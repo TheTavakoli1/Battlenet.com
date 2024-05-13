@@ -1,0 +1,18 @@
+.header{
+    height: 128px;
+    background-color: thistle;
+}
+
+.header .topheader{
+    height: 72px;
+    background-color: crimson;
+}
+
+
+.header .topheader nav div a img{
+    width: 290px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: -35px;
+    margin-left: -60px;
+}

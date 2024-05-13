@@ -1,0 +1,112 @@
+.recommended{
+    height: 1060px;
+    margin-top: 64px;
+}
+.recommended .top{
+    height: 28px;
+    background-color: thistle;
+    p{
+        font-family: ObjectSans;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(255 255 255);
+    }
+}
+
+.recommended div.rowone{
+    height: 415px;
+    background-color: teal;
+}
+
+.recommended div.rowone div.item{
+    width: 18.87%;
+    height: 415px;
+    background-color: rgb(35, 37, 43);
+}
+
+.recommended div.rowone div.item a img{
+    height: 167px;
+    object-position: top center
+}
+  
+
+.recommended div.rowone div.item div.information{
+    height: 166px;
+    padding: 24px 24px 0 24px;
+}
+
+.recommended div.rowone div.item:hover div.all{
+    background-color: rgba(255, 255, 255, 0.114);
+    transition: all 200ms;
+}
+
+.recommended div.rowone div.item div.information span:nth-of-type(1){
+    width: 28px;
+    height: 24px;
+}
+
+.recommended div.rowone div.item div.information span:nth-of-type(2){
+    font-family: ObjectSans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+    vertical-align: middle;
+}
+
+.recommended div.rowone div.item div.information h2{
+    font-family: ObjectSans;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.recommended div.rowone div.item div.information p{
+    font-family: NotoSans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.recommended div.rowone div.item:nth-of-type(1) div.information p:nth-of-type(1){
+    font-family: NotoSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255 180 0);
+}
+
+.recommended div.rowone div.item:nth-of-type(1) div.information p:nth-of-type(2){
+    font-family: NotoSans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: -12px;
+}
+
+.recommended div.rowone div.item:nth-of-type(2) div.information p:nth-of-type(1){
+    font-family: NotoSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255 180 0);
+}
+
+.recommended div.rowone div.item:nth-of-type(2) div.information p:nth-of-type(2){
+    font-family: NotoSans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: -12px;
+}
+
+.recommended div.rowone div.item div.price{
+    height: 72px;
+    padding: 24px;
+    margin-top: 8px;
+    
+}
+
+.recommended div.rowone div.item div.price p{
+   font-family: NotoSans-Bold;
+   font-size: 16px;
+   font-weight: 700;
+   color: rgba(255, 255, 255, 0.84);
+}

@@ -1,0 +1,15 @@
+.slider{
+    height: 360px;
+    margin-top: 16px;
+}
+.slider .carousel{
+    height: inherit;
+}
+
+.slider .carousel .carousel-inner{
+    height: inherit;
+}
+.slider .carousel .carousel-inner img{
+    height: inherit;
+    object-fit: cover;
+}
