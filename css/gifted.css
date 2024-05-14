@@ -4,8 +4,6 @@
 
 .gifted .top {
     height: 28px;
-    background-color: thistle;
-
     p {
         font-family: ObjectSans;
         font-size: 24px;
@@ -16,7 +14,6 @@
 
 .gifted div.rowone {
     height: 449px;
-    background-color: teal;
 }
 
 .gifted div.rowone div.item {

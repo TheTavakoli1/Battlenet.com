@@ -4,8 +4,6 @@
 
 .trending .top {
     height: 28px;
-    background-color: thistle;
-
     p {
         font-family: ObjectSans;
         font-size: 24px;
@@ -16,7 +14,6 @@
 
 .trending div.rowone {
     height: 449px;
-    background-color: teal;
 }
 
 .trending div.rowone div.item {

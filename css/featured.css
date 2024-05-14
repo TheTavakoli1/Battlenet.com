@@ -1,11 +1,10 @@
 .featured {
     height: 1060px;
+    margin-top: -64px;
 }
 
 .featured .top {
     height: 28px;
-    background-color: thistle;
-
     p {
         font-family: ObjectSans;
         font-size: 24px;
@@ -16,7 +15,6 @@
 
 .featured div.rowone {
     height: 449px;
-    background-color: teal;
 }
 
 .featured div.rowone div.item {

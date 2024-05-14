@@ -4,7 +4,6 @@
 }
 .recommended .top{
     height: 28px;
-    background-color: thistle;
     p{
         font-family: ObjectSans;
         font-size: 24px;
@@ -15,7 +14,6 @@
 
 .recommended div.rowone{
     height: 415px;
-    background-color: teal;
 }
 
 .recommended div.rowone div.item{
