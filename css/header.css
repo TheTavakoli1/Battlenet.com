@@ -1,13 +1,10 @@
 .header{
     height: 128px;
-    background-color: thistle;
 }
 
 .header .topheader{
     height: 72px;
-    background-color: crimson;
 }
-
 
 .header .topheader nav div a img{
     width: 290px;
@@ -15,4 +12,39 @@
     object-fit: cover;
     margin-top: -35px;
     margin-left: -60px;
+}
+
+.header nav div div ul li a{
+    font-family: NotoSans-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.header nav div div ul li ul li img{
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.header nav div div ul li ul li h2{
+    font-family: NotoSans-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.894);
+    display: inline-block;
+}
+
+.header nav div div ul li ul li p{
+    font-family: NotoSans-Bold;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.48);
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+.header nav div div form{
+    height: 52px;
 }
