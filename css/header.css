@@ -6,12 +6,12 @@
     height: 72px;
 }
 
-.header .topheader nav div a img{
-    width: 290px;
-    height: 120px;
+.header .topheader nav div a svg{
+    width: 200px;
+    height: 56px;
     object-fit: cover;
-    margin-top: -35px;
-    margin-left: -60px;
+    margin-top: -6px;
+    margin-left: -12px;
 }
 
 .header nav div div ul li a{
@@ -47,4 +47,58 @@
 
 .header nav div div form{
     height: 52px;
+}
+
+.header .topheader nav.navbar div div ul li:hover{
+    background-color: rgb(35,37,43);
+    border-radius: 4px;
+}
+
+.header .topheader nav.navbar div div ul li:hover span:nth-of-type(1){
+    color: white;
+}
+
+.header .topheader nav.navbar div div ul li ul{
+    width: 320px;
+}
+
+.header .topheader nav.navbar div div ul li ul .top li:nth-of-type(1){
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.header .topheader nav.navbar div div ul li ul .top li:nth-of-type(1) a{
+   height: inherit;
+   line-height: 40px;
+   font-family: ObjectSans;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.header .topheader nav.navbar div div ul li ul div li{
+    height: 48px;
+}
+
+.header .topheader nav.navbar div div ul li ul div li a{
+    line-height: 40px;
+}
+
+.header .topheader nav.navbar div div ul li ul .bottom{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(37, 40, 44);
+}
+
+.header .topheader nav.navbar div div ul li ul .bottom li{
+    height: 48px;
+}
+
+.header .topheader nav.navbar div div ul li ul .bottom li a{
+    height: 48px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.header .topheader nav.navbar div div ul li ul .bottom li:hover a{
+    background-color: rgba(255, 255, 255, 0.06) !important;
 }
