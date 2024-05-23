@@ -165,13 +165,13 @@
     visibility: hidden;
 }
 
-.slider .swiper1 .swiper-button-next:hover{
+.slider .swiper1 .swiper-button-next:hover {
     border-color: rgb(113 110 110);
     border-style: solid;
     border-width: 2px;
 }
 
-.slider .swiper1 .swiper-button-next::after{
+.slider .swiper1 .swiper-button-next::after {
     font-size: 22px;
 }
 
@@ -187,27 +187,27 @@
     visibility: hidden;
 }
 
-.slider .swiper1 .swiper-button-prev:hover{
+.slider .swiper1 .swiper-button-prev:hover {
     border-color: rgb(113 110 110);
     border-style: solid;
     border-width: 2px;
 }
 
-.slider .swiper1 .swiper-button-prev::after{
+.slider .swiper1 .swiper-button-prev::after {
     font-size: 22px;
 }
 
-.slider .swiper1:hover .swiper-button-next{
+.slider .swiper1:hover .swiper-button-next {
     visibility: visible;
 }
 
-.slider .swiper1:hover .swiper-button-prev{
+.slider .swiper1:hover .swiper-button-prev {
     visibility: visible;
 }
 
-.slider .swiper1 .swiper-pagination span{
+.slider .swiper1 .swiper-pagination span {
     width: 40px;
     height: 6px;
     border-radius: 4px;
-    background-color: rgb(20, 142, 255)e;
+    background-color: rgb(20, 142, 255);
 }

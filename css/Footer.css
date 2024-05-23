@@ -1,70 +1,70 @@
-.footer{
+.footer {
     height: 311px;
     padding: 40px;
 }
 
-.footer .top{
+.footer .top {
     height: 48px;
 }
 
-.footer .top .left{
+.footer .top .left {
     height: inherit;
 }
 
-.footer .top .left a{
+.footer .top .left a {
     width: fit-content;
     height: inherit;
     padding: 14px 16px 0 16px;
 }
 
-.footer .top .left a:hover{
+.footer .top .left a:hover {
     background-color: gray !important;
     border-radius: 8px;
 }
 
-.footer .top .left a p{
+.footer .top .left a p {
     font-family: ObjectSans;
     font-size: 14px;
     font-weight: 700;
     color: rgb(255, 255, 255);
 }
 
-.footer .bottom{
+.footer .bottom {
     height: 151px;
     margin-top: 8px;
     padding: 22px;
     border-top: 1px solid rgba(255, 255, 255, 0.125);
 }
 
-.footer .bottom .left{
+.footer .bottom .left {
     height: 82px;
 }
 
-.footer .bottom .left .logo svg{
+.footer .bottom .left .logo svg {
     width: 325px;
     height: 54px;
 }
 
-.footer .bottom .left .text{
+.footer .bottom .left .text {
     margin-left: 40px;
 }
 
-.footer .bottom .left .text p{
+.footer .bottom .left .text p {
     font-family: NotoSans;
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer .bottom .left .text p a{
+.footer .bottom .left .text p a {
     text-decoration: underline;
 }
 
-.footer .bottom .left .text p:nth-of-type(2){
+.footer .bottom .left .text p:nth-of-type(2) {
     margin-top: -18px;
 }
 
-.footer .bottom .left .text a{
+.footer .bottom .left .text a {
     text-decoration: none;
     font-family: NotoSans;
     font-size: 12px;
@@ -73,18 +73,115 @@
     margin-right: 8px;
 }
 
-.footer .bottom .left .text a:hover{
+.footer .bottom .left .text a:hover {
     color: rgba(255, 255, 255, 0.933);
 }
 
-.footer .bottom .right{
+/* Right */
+.footer .bottom .right {
     width: 25%;
     height: 82px;
+    margin-right: -24px;
 }
 
-.footer .bottom .right span{
-    width: 52px;
+.footer .bottom .right span {
+    width: 40px;
     height: 40px;
-    background-color: gray;
-    border-radius: 50px;
+    background-color: rgba(45, 47, 53, 0.5);
+    border-radius: 50%;
+}
+
+.footer .bottom .right span i{
+    font-size: 20px;
+   
+}
+
+.footer>.top>.right>div>button {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(21, 23, 30);
+}
+
+.footer>.top>.right>div>button:focus{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer>.top>.right>div>button>span>i{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.footer .top .right .dropdown ul {
+    width: 576px;
+}
+
+.footer .top .right .dropdown ul .topMenu {
+    width: inherit;
+    height: 125px;
+    background-color: rgb(23, 25, 38);
+}
+
+.footer .top .right .dropdown ul .topMenu p {
+    font-family: ObjectSans;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .top .right .dropdown ul .topMenu button {
+    height: 40px;
+    border: unset;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-family: ObjectSans;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.footer .top .right .dropdown ul .topMenu button:hover {
+    background-color: rgba(71, 69, 69, 0.72);
+}
+
+.footer .top .right .dropdown ul .bottomMenu {
+    background-color: rgb(3, 6, 25);
+}
+
+.footer .top .right .dropdown ul .bottomMenu .first p {
+    font-family: ObjectSans;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.footer .top .right .dropdown ul .bottomMenu .first li {
+    width: 288px;
+    height: 48px;
+}
+
+.footer .top .right .dropdown ul .bottomMenu .first li a {
+    height: inherit;
+    line-height: 36px;
+    font-family: NotoSans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.footer .top .right .dropdown ul .bottomMenu .second {
+    margin-top: 60px;
+}
+
+.footer .top .right .dropdown ul .bottomMenu .second li {
+    width: 282px;
+    height: 48px;
+}
+
+.footer .top .right .dropdown ul .bottomMenu .second li a {
+    height: inherit;
+    line-height: 36px;
+    font-family: NotoSans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
