@@ -86,7 +86,7 @@
 .header .topheader nav.navbar div div ul li ul .bottom{
     width: 100%;
     height: 60px;
-    background-color: rgb(37, 40, 44);
+    background-color: rgb(37, 40, 45);
 }
 
 .header .topheader nav.navbar div div ul li ul .bottom li{
@@ -100,5 +100,76 @@
 }
 
 .header .topheader nav.navbar div div ul li ul .bottom li:hover a{
+    height: inherit;
     background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+
+.header .nav form input{
+    border: unset;
+}
+
+.header .nav form input::placeholder{
+    font-family: ObjectSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(181, 174, 174, 0.72);
+}
+
+.header .nav form input:hover{
+    background-color: rgba(65, 61, 61, 0.72);
+}
+
+.header .nav form input:hover::placeholder{
+    color: rgb(255,255,255);
+}
+
+.header .nav form span{
+    font-size: 18px;
+}
+
+.header>.nav>li{
+    width: 15.5%;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.header>.nav>li:hover{
+    background-color: rgba(65, 61, 61, 0.72);
+}
+
+.header>.nav>li>a>span{
+    font-family: ObjectSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(181, 174, 174, 0.72);
+}
+
+.header>.nav>li:hover>a>span{
+    color: rgb(255,255,255);
+}
+
+
+.header>.nav>li>ul{
+    width: 300px;
+}
+
+.header>.nav>li>ul>li{
+    height: 48px;
+}
+
+.header>.nav>li>ul>li>a{
+    height: inherit;
+    line-height: 36px;
+    font-family: NotoSans;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255, 0.72);
+}
+
+.header>.nav>li>ul>li:hover>a{
+    color: rgb(255,255,255);
+}
+
+.header>.nav>li>ul>li>a>span{
+    font-size: 18px;
 }
